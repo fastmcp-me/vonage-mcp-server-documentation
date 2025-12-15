@@ -1,20 +1,16 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-  "name": "com.vonage/vonage-documentation-mcp",
+  "name": "io.github.Vonage/vonage-documentation-mcp",
   "description": "MCP server for Vonage API documentation, code snippets, tutorials, and troubleshooting.",
   "repository": {
     "url": "https://github.com/Vonage/vonage-mcp-server-documentation",
     "source": "github"
   },
   "version": "1.0.0",
-  "packages": [
+  "remotes": [
     {
-      "registryType": "http",
-      "identifier": "https://documentation-mcp.vonage.dev/mcp",
-      "transport": {
-        "type": "streamable-http",
-        "url": "https://documentation-mcp.vonage.dev/mcp"
-      }
+      "type": "streamable-http",
+      "url": "https://documentation-mcp.vonage.dev/mcp"
     }
   ]
 }
